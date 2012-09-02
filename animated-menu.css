@@ -1,0 +1,57 @@
+body{
+	font-family:"Lucida Grande", arial, sans-serif;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+li{
+	width:115px;
+	height:50px;
+	float:left;
+	color:#191919;
+	text-align:center;
+	overflow:hidden;
+}
+
+a{
+	color:#FFF;
+	text-decoration:none;
+}
+
+p{
+	padding:0px 5px;
+}
+
+	.subtext{
+		padding-top:15px;
+		color:#FFF;
+	}
+
+/*Menu Color Classes*/
+.green{background: url('images/website.png') top left no-repeat;}
+.yellow{background: url('images/business.png') top left no-repeat;}
+.red{background: url('images/logo.png') top left no-repeat;}
+.blue{background: url('images/ebook.png') top left no-repeat;}
+
+#container{
+	width:520px;
+	height:800px;
+	background: url('images/background.png') top left no-repeat;
+}
+
+#menu{
+	margin-left:30px;
+	padding-top:15px;
+}
+
+#content{
+	width:493.94px;
+	height:402.09px;
+	background: url('images/content.png') top left no-repeat;
+	position:relative;
+	top:300px;
+	left:15px;
+}
